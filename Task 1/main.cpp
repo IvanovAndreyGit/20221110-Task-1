@@ -1,7 +1,7 @@
 
 
 #include <iostream>
-#pragma execution_character_set("utf-8")
+#pragma execution_character_set("koi8-r")
 enum months
 {
     Jan = 1,
@@ -22,7 +22,7 @@ enum months
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     int m;
     std::cout << "¬ведите номер мес€ца: ";
