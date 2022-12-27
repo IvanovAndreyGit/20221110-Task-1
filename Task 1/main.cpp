@@ -1,7 +1,7 @@
 
 
 #include <iostream>
-
+#pragma execution_character_set("utf-8")
 enum months
 {
     Jan = 1,
