@@ -22,7 +22,7 @@ enum months
 
 int main()
 {
-    setlocale(LC_ALL, "Russian");
+    //setlocale(LC_ALL, "Russian");
 
     int m;
     std::cout << "¬ведите номер мес€ца: ";
@@ -57,7 +57,7 @@ int main()
         case Oct: std::cout << "ќкт€брь" << std::endl; break;
         case Nov: std::cout << "Ќо€брь" << std::endl; break;
         case Dec: std::cout << "ƒекабрь" << std::endl; break;
-            //case 0: std::cout << "ƒо свидани€" << std::endl; break;
+        
         }
     
     return 0;
