@@ -1,7 +1,7 @@
 
 
 #include <iostream>
-#pragma execution_character_set("koi8-r")
+#pragma execution_character_set("cp1251")
 enum months
 {
     Jan = 1,
