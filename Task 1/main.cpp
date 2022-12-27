@@ -45,8 +45,8 @@ int main()
      
         switch (m)
         {
-        case Jan: std::cout << "������" << std::endl; break;
-        case Feb: std::cout << "�������" << std::endl; break;
+        case Jan: std::cout << "Январь" << std::endl; break;
+        case Feb: std::cout << "Февраль" << std::endl; break;
         case Mar: std::cout << "����" << std::endl; break;
         case Apr: std::cout << "������" << std::endl; break;
         case May: std::cout << "���" << std::endl; break;
