@@ -1,7 +1,7 @@
 
 
 #include <iostream>
-#pragma execution_character_set("cp1251")
+
 enum months
 {
     Jan = 1,
@@ -22,10 +22,10 @@ enum months
 
 int main()
 {
-    //setlocale(LC_ALL, "Russian");
+    setlocale(LC_ALL, "Russian");
 
     int m;
-    std::cout << "Введите номер месяца: ";
+    std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ: ";
     std::cin >> m;
 
     while (m < 1 || m > 12 )
@@ -33,30 +33,30 @@ int main()
         
         if (m == 0)
         {
-            std::cout << "До свидания" << std::endl;
+            std::cout << "пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl;
             break;
         }
         else
         {
-            std::cout << "Неправильный номер!" << std::endl;
+            std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ!" << std::endl;
             std::cin >> m;
         }
     }
      
         switch (m)
         {
-        case Jan: std::cout << "Январь" << std::endl; break;
-        case Feb: std::cout << "Февраль" << std::endl; break;
-        case Mar: std::cout << "Март" << std::endl; break;
-        case Apr: std::cout << "Апрель" << std::endl; break;
-        case May: std::cout << "Май" << std::endl; break;
-        case Jun: std::cout << "Июнь" << std::endl; break;
-        case Jul: std::cout << "Июль" << std::endl; break;
-        case Aug: std::cout << "Август" << std::endl; break;
-        case Sep: std::cout << "Сентябрь" << std::endl; break;
-        case Oct: std::cout << "Октябрь" << std::endl; break;
-        case Nov: std::cout << "Ноябрь" << std::endl; break;
-        case Dec: std::cout << "Декабрь" << std::endl; break;
+        case Jan: std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl; break;
+        case Feb: std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl; break;
+        case Mar: std::cout << "пїЅпїЅпїЅпїЅ" << std::endl; break;
+        case Apr: std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl; break;
+        case May: std::cout << "пїЅпїЅпїЅ" << std::endl; break;
+        case Jun: std::cout << "пїЅпїЅпїЅпїЅ" << std::endl; break;
+        case Jul: std::cout << "пїЅпїЅпїЅпїЅ" << std::endl; break;
+        case Aug: std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl; break;
+        case Sep: std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl; break;
+        case Oct: std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl; break;
+        case Nov: std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl; break;
+        case Dec: std::cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅ" << std::endl; break;
         
         }
     

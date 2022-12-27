@@ -1,3 +1,2 @@
 ﻿  main.cpp
-C:\Users\user\Documents\C++\20221110\Task 1\main.cpp(4,9): warning C4695: #pragma execution_character_set: 'cp1251' is not a supported argument: currently only 'UTF-8' is supported
   Task 1.vcxproj -> C:\Users\user\Documents\C++\20221110\x64\Debug\Task 1.exe
